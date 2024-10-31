@@ -27,3 +27,18 @@ function objPrint(obj) {
 }
 
 objPrint(book);
+
+// Problem-3 (Array Reversal)
+
+let numArr = [1, 2, 3, 4, 5];
+
+function arrayReverse(array) {
+  let newArr = [];
+  for (let i = array.length - 1; i >= 0; i--) {
+    newArr.push(array[i]);
+  }
+
+  return newArr;
+}
+
+console.log(arrayReverse(numArr));
