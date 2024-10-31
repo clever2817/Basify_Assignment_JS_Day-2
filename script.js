@@ -11,3 +11,19 @@ function sum(n) {
 }
 
 console.log(sum(5));
+
+// Problem-2 (Object Properties)
+
+let book = {
+  title: "Rich Dad Poor Dad",
+  author: "Robert Kiosaki",
+  year: 2005,
+};
+
+function objPrint(obj) {
+  console.log(
+    `Title: [${obj.title}], Author: [${obj.author}], Year: [${obj.year}]`
+  );
+}
+
+objPrint(book);
